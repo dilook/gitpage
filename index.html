@@ -1,0 +1,15 @@
+<html>
+<head>
+    <script>
+        function printAll() {
+            const pages = ["page1.pdf", "page2.pdf", "page3.pdf"];
+            for (let i = 0; i < pages.length; i++) {
+                window.open(pages[i], "_blank");
+            }
+        }
+    </script>
+</head>
+<body>
+<button onclick="printAll()">printMe</button>
+</body>
+</html>
